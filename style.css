@@ -15,6 +15,14 @@ a {
     text-decoration: none;
     color: inherit;
 }
+button {
+    border: 2px solid rgb(84, 15, 148);
+    border-radius: 5px;
+    background-color: rgb(255, 221, 0);
+    color: rgb(84, 15, 148);
+    width: auto;
+    height: 30px;
+}
 /* header secton */
 .header {
     display: flex;
@@ -65,7 +73,7 @@ h1 {
 /* information secton */
 .information {
     background-color: rgb(255, 221, 0);
-    color: rgb(171, 111, 226);
+    color: rgb(84, 15, 148);
 }
 h2 {
     text-align: center;
@@ -80,10 +88,67 @@ h2 {
 }
 ul li img {
     width: 150px;
-    border: 3pt solid rgb(171, 111, 226);
+    border: 3pt solid rgb(84, 15, 148);
     border-radius: 30px;
     padding: 3px;
 }
 ul li p {
+    text-align: center;
+}
+
+/* quote section */
+.quote {
+    background-color: rgba(255, 221, 0, .6);
+}
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 100px auto;
+    align-items: center;
+    padding: 10px;
+    color: rgb(84, 15, 148);
+}
+.quote-box p {
+    font-style: italic;
+    font-size: 22pt;
+    margin:10px;
+}
+.quote-box .reference {
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* sign-up section */
+.sign-up {
+    background-color: rgb(171, 111, 226);
+    color: white;
+}
+.another-box {
+    /* background-color: rgb(129, 50, 136); */
+    border: 2px solid rgb(84, 15, 148);
+    border-radius: 10px;
+    margin: 30px auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.sign-up-left p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.sign-up-left .smaller {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* footer section */
+footer {
+    background-color: rgb(171, 111, 226);
+    color: white;
     text-align: center;
 }
