@@ -1,0 +1,89 @@
+/* Reset default margin and padding for the body and html elements */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* header secton */
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(171, 111, 226);
+    align-items: center;
+    
+}
+.header-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 10% 0px 15%;
+    margin-bottom: 30px;
+}
+.header-main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 20% 0 15%;
+    color: white;
+}
+.main-left {
+    width: 350px;
+}
+.main-right {
+    /* moves image up. cuts into margin for header-top*/
+    margin-top: -15px
+}
+.header-img {
+    height: 80px;
+    width: auto;
+}
+.header-link {
+    color: white;
+    padding: 20px;
+
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* information secton */
+.information {
+    background-color: rgb(255, 221, 0);
+    color: rgb(171, 111, 226);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.information ul {
+    justify-content: center;
+    gap: 50px;
+}
+.information ul li {
+    width: 150px;
+}
+ul li img {
+    width: 150px;
+    border: 3pt solid rgb(171, 111, 226);
+    border-radius: 30px;
+    padding: 3px;
+}
+ul li p {
+    text-align: center;
+}
